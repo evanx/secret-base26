@@ -8,7 +8,7 @@ Also see related project for base56 which uses uppercase, lowercase and digits: 
 
 Also base32 which is case-insensitive: https://github.com/evanx/secret-base32
 
-However case-insensitive alpha only, is convenient where secrets need to be entered using a mobile keyboard.
+However where secrets need to be entered using a mobile keyboard, then case-insensitive alpha only is convenient.
 
 It is implemented as follows:
 ```javascript
