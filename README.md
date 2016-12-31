@@ -6,7 +6,7 @@ This is suitable for secret URLs, whereas base64 includes slash in its charset.
 
 Also see related project for base56 which uses uppercase, lowercase and digits: https://github.com/evanx/secret-base56
 
-Also base32 which in case-insensitive: https://github.com/evanx/secret-base32
+Also base32 which is case-insensitive: https://github.com/evanx/secret-base32
 
 However case-insensitive alpha only, is convenient where secrets need to be entered using a mobile keyboard.
 
