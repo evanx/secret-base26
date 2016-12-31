@@ -40,9 +40,9 @@ which we repeat to confirm that it gives us random output.
 
 Use `length` envar to change from default `16`
 ```
-docker run -e length=40 lowercase=true secret-base26:test
+docker run -e length=40 -e lowercase=true secret-base26:test
 ```
-which outputs length `40` token in lowercase e.g. ``
+which outputs length `40` token in lowercase e.g. `hdervxyzhbftrfbfepoqadszdrlwalgobeqkcsjw`
 
 ## Related 
 
